@@ -1,0 +1,14 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-extra-semi": "warn",
+    "no-irregular-whitespace": "warn",
+    "no-multi-spaces": "warn",
+    "array-bracket-spacing": "warn",
+    "block-spacing": "warn",
+    "eol-last": "warn"
+  }
+}

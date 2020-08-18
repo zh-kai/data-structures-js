@@ -1,6 +1,6 @@
 /**
  * @class
- * JavaScript 实现先进先出队列
+ * JavaScript 实现 先进先出 队列
  */
 class Queue {
   /**

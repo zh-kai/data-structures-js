@@ -1,1 +1,1 @@
-> 关于使用 js 描述数据结构
+> 关于使用 js 描述数据结构，仅供个人学习使用。参考 [datastructures-js](https://github.com/datastructures-js)

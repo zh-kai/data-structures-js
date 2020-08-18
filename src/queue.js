@@ -26,7 +26,7 @@ class Queue {
    */
   dequeue() {
     if(this.size() === 0) return null
-    return this._elements.shift
+    return this._elements.shift()
   }
 
   /**
@@ -51,7 +51,7 @@ class Queue {
    */
   back() {
     if(this.size() === 0) return null
-    return this._elements[this._elements.length]
+    return this._elements[this._elements.length - 1]
   }
 
   /**

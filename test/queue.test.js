@@ -88,8 +88,9 @@ describe('Queue unit tests:', () => {
   describe('clear()', () => {
     it('clears all elements from the queue', () => {
       queue = new Queue([1, 2, 3])
-      
+
       expect(queue.isEmpty()).eq(false)
+
       queue.clear()
       expect(queue.isEmpty()).eq(true)
     })
@@ -98,7 +99,7 @@ describe('Queue unit tests:', () => {
   describe('toArray()', () => {
     it('should convert the queue into an array', () => {
       queue = new Queue([1, 2, 3])
-      
+
       expect(queue.toArray()).to.deep.equal([1, 2, 3]);
     });
   });

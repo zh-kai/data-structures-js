@@ -4,11 +4,16 @@
     "sourceType": "module"
   },
   "rules": {
+    "no-empty": "warn",
     "no-extra-semi": "warn",
     "no-irregular-whitespace": "warn",
     "no-multi-spaces": "warn",
+    "no-multiple-empty-lines": "warn",
     "array-bracket-spacing": "warn",
     "block-spacing": "warn",
-    "eol-last": "warn"
+    "eol-last": "warn",
+    "space-infix-ops": "warn",
+    "spaced-comment": "warn",
+    "arrow-spacing": "warn"
   }
 }

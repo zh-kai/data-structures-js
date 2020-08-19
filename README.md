@@ -15,8 +15,7 @@ npm i
 ## 单元测试
 你可以测试某一个数据结构的正常使用，像下面这样：
 ```bash
-npm test <filename>
-npm test ./test/queue.test.js
+npm test
 ```
 如果你想自己定义测试用例，请修改 `test/xxx.test.js` 中的代码。
 

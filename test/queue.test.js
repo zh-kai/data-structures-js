@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import Queue from '../src/queue';
 
-describe('Queue unit tests:', () => {
+describe('✨ Queue unit tests:', () => {
   let queue = null
 
   describe('new Queue()', () => {

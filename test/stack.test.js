@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import Stack from '../src/stack'
 
-describe('stack unit tests', () => {
+describe('✨ Stack unit tests', () => {
   const stack = new Stack();
 
   describe('push(element)', () => {

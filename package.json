@@ -4,7 +4,7 @@
   "description": "js data structures",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-register"
+    "test": "mocha --require babel-register ./test/*.test.js"
   },
   "author": "zh-kai",
   "license": "ISC",

@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { LinkedList, LinkedListNode } from "../src/linkedList";
+import { LinkedList, LinkedListNode } from "../src/linkedList/linkedList";
 
 describe('✨ LinkedList unit tests', () => {
   const linkedList = new LinkedList();

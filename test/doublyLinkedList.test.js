@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { DoublyLinkedList, DoublyLinkedListNode } from "../src/doublyLinkedList";
+import { DoublyLinkedList, DoublyLinkedListNode } from "../src/linkedList/doublyLinkedList";
 
 describe('✨ DoublyLinkedList unit tests', () => {
   const doublyLinkedList = new DoublyLinkedList();
